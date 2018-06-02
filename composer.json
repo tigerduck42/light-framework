@@ -1,0 +1,24 @@
+{
+    "name": "tigerduck42/light-framework",
+    "description": "Light framework.",
+    "keywords": ["template", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Martin Mitterhauser",
+            "email": "martin.mitterhauser@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "tigerduck42\\LightFramework\\": "src/"
+        }
+    }
+}
