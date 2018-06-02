@@ -2,14 +2,15 @@
     "name": "tigerduck42/light-framework",
     "description": "Light framework.",
     "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
+     "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "Martin Mitterhauser",
             "email": "martin.mitterhauser@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=5.4"
     },
